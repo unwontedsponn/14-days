@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 14 Days ⏱️  
+**Real skills. Short journeys. Lifelong confidence.**
 
-## Getting Started
+**14 Days** is a creative learning platform and publishing imprint.  
+Each book and course helps learners build a meaningful skill — in just 14 days.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ What We Do
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 📘 **Books + Courses** — Music, budgeting, cooking, and more.
+- 🧠 **Gamified Learning** — Earn XP, build streaks, track progress.
+- 💰 **Learn to Earn** — Turn XP into “14 Day Bonds” — a reward pot for the future.
+- 🧑‍🎓 **For Home Learners** — No exams. Just creativity, growth, and joy.
+- 🖨️ **Offline Missions** — Every lesson includes printable, real-world tasks.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📚 Course & Book Examples
 
-## Learn More
+- *Beginner to Composer in 14 Days*
+- *Money Confidence in 14 Days*
+- *Creative Cooking in 14 Days*
+- *AI Tools for Teens in 14 Days*
 
-To learn more about Next.js, take a look at the following resources:
+> Every course is story-driven, hands-on, and designed for fluency — not perfection.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🏆 Learn to Earn: 14 Day Bonds
 
-## Deploy on Vercel
+🎓 *Complete lessons → Earn XP → Redeem for digital bonds*
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Bonds = creative fund for savings, gear, or graduation gifts
+- Teaches long-term thinking, investing, and delayed gratification
+- Funded optionally by parents, supporters, or the platform
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🛠️ Tech Stack
+
+- [Next.js](https://nextjs.org/) (App Router)  
+- Tailwind CSS  
+- Vercel + NeonDB  
+- TypeScript, Jest  
+- Stripe (planned)
+
+---
+
+## 🚧 MVP Progress
+
+- ✅ `/learn` view with clickable skill paths
+- ✅ Lesson engine (XP, quote, offline tasks, PDF downloads)
+- ✅ Fully working *Beginner to Composer in 14 Days* course
+- ⏳ Parent dashboard + XP-to-bond system
+
+---
+
+## 🧭 Future Possibilities
+
+- Branded **14 Days** print series (starting with “Composer”)
+- Author tools for educators to build their own “in 14 Days” track
+- Course builder or creator platform
+- Companion mobile app or PWA
+
+---
+
+## 👋 Made by Ben Spooner  
+Developer · Educator · Musician  
+🌍 [benspooner.co.uk](https://www.benspooner.co.uk)
