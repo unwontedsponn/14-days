@@ -1,8 +1,14 @@
 import { notFound } from "next/navigation";
 import { book1Track } from "@/app/lib/book1Track";
 
-export default function LessonPage({ params }: { params: { slug: string } }) {
-  const lesson = book1Track.find((l) => l.id === params.slug);
+interface PageProps {
+    params: {
+      slug: string;
+    };
+  }
+  
+  export default function LessonPage({ params }: PageProps) {
+    const lesson = book1Track.find((l) => l.id === params.slug); 
 
   if (!lesson) return notFound();
 
