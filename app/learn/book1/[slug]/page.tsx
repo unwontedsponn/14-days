@@ -3,11 +3,11 @@ import { book1Track } from "@/app/lib/book1Track";
 
 interface PageProps {
     params: {
-      slug: string;
+        slug: string;
     };
-  }
+    }
   
-  export default function LessonPage({ params }: PageProps) {
+export default async function LessonPage({ params }: PageProps) {    
     const lesson = book1Track.find((l) => l.id === params.slug); 
 
   if (!lesson) return notFound();
