@@ -2,10 +2,8 @@ import { notFound } from "next/navigation";
 import { book1Track } from "@/app/lib/book1Track";
 
 interface PageProps {
-    params: {
-        slug: string;
-    };
-    }
+    params: { slug: string };
+}
   
 export default async function LessonPage({ params }: PageProps) {    
     const lesson = book1Track.find((l) => l.id === params.slug); 

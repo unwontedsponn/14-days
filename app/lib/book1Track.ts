@@ -1,5 +1,3 @@
-// lib/curriculum/musicTrack.ts
-
 export const book1Track = [
     {
       id: "intro",
